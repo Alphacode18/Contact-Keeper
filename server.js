@@ -1,7 +1,7 @@
 const express = require('express');
 const userRoutes = require('./routes/users');
 const contactRoutes = require('./routes/contacts');
-const authRoutes = require('./routes/users');
+const authRoutes = require('./routes/auth');
 const connectDB = require('./config/db');
 
 const app = express();
