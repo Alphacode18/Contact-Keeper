@@ -17,7 +17,7 @@ app.get('/', (req, res, next) => {
 });
 
 app.use('/api/users', userRoutes);
-app.use('api/contacts', contactRoutes);
+app.use('/api/contacts', contactRoutes);
 app.use('/api/auth', authRoutes);
 
 app.listen(port, () => {
