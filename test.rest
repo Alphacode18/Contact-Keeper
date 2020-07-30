@@ -4,5 +4,5 @@ content-type: application/json
 {
     "name": "Shreyas Kharbanda",
     "email": "skharban@purdue.edu",
-    "password": "test123"
+    "password": "Shreyas2001"
 }
