@@ -2,8 +2,10 @@ const express = require('express');
 const userRoutes = require('./routes/users');
 const contactRoutes = require('./routes/contacts');
 const authRoutes = require('./routes/users');
+const connectDB = require('./config/db');
 
 const app = express();
+connectDB();
 const port = process.env.PORT || 5000;
 
 app.get('/', (req, res, next) => {
