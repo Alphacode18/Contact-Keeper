@@ -8,6 +8,8 @@ const app = express();
 connectDB();
 const port = process.env.PORT || 5000;
 
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res, next) => {
   res.json({
     message: 'Welcome to the contact keeper API',
